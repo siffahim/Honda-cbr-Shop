@@ -1,0 +1,22 @@
+html{
+    scroll-behavior:smooth;
+}
+:root{
+    --margin-ttb:50px;
+}
+.section-title{
+    margin:var(--margin-ttb) auto;
+}
+hr{
+    width: 80px;
+    border: 2px solid #E76F51;
+    border-radius: 1px;
+    margin: 0 auto;
+}
+.grayscale img{
+    filter:grayscale(100%);
+}
+.star-color{
+    color:#E76F51;
+
+}
