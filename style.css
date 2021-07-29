@@ -1,8 +1,16 @@
+/*--------------google font link---------------*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 html{
     scroll-behavior:smooth;
 }
 :root{
-    --margin-ttb:50px;
+    --margin-ttb:80px;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.header-bg{
+    background: #264653;
 }
 .section-title{
     margin:var(--margin-ttb) auto;
@@ -16,7 +24,16 @@ hr{
 .grayscale img{
     filter:grayscale(100%);
 }
-.star-color{
+.mytext-color{
     color:#E76F51;
-
+}
+.mybtn{
+    padding:10px 20px;
+    background-color: #E76F51;
+    color:#fff;
+    border:none;
+    border-radius: 4px;
+}
+textarea{
+    resize: none;
 }
