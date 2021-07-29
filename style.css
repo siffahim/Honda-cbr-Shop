@@ -1,5 +1,5 @@
 /*--------------google font link---------------*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 html{
     scroll-behavior:smooth;
 }
@@ -7,7 +7,7 @@ html{
     --margin-ttb:80px;
 }
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .header-bg{
     background: #000b76;
@@ -30,11 +30,11 @@ hr{
     filter:grayscale(0%);
 }
 .mytext-color{
-    color:#E76F51;
+    color:orangered;
 }
 .mybtn{
     padding:10px 20px;
-    background-color: #E76F51;
+    background-color:orangered;
     color:#fff;
     border:none;
     border-radius: 4px;
@@ -44,7 +44,7 @@ textarea{
     resize: none;
 }
 .form-btn{
-    background:linear-gradient(#E76F51,#ff714e);
+    background:linear-gradient(orangered,#ff3d0d);
     color:#fff;
     font-weight: 700;
 }
