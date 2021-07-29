@@ -24,6 +24,10 @@ hr{
 }
 .grayscale img{
     filter:grayscale(100%);
+    transition:filter 0.2s ease-out;
+}
+.grayscale img:hover{
+    filter:grayscale(0%);
 }
 .mytext-color{
     color:#E76F51;
@@ -46,4 +50,8 @@ textarea{
 }
 .populer-top-margin{
     margin-top:150px;
+}
+.gray-bg{
+    background-color: gainsboro;
+    border-radius: 10px;
 }
